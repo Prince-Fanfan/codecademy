@@ -11,9 +11,9 @@ int main() {
   std::cout << "rock paper scissors!\n";
   std::cout << "====================\n";
  
-  std::cout << "1) ?\n";
-  std::cout << "2) ?\n";
-  std::cout << "3) ??\n";
+  std::cout << "1) ✊\n";
+  std::cout << "2) ✋\n";
+  std::cout << "3) ✌️\n";
  
   std::cout << "shoot!\n";
   std::cin >> user;
@@ -21,13 +21,13 @@ int main() {
   std::string computer_g;
   switch(computer){
     case 1:
-      computer_g = "?";
+      computer_g = "✊";
       break;
     case 2:
-      computer_g = "?";
+      computer_g = "✋";
       break;
     case 3:
-      computer_g = "??";
+      computer_g = "✌️";
       break;
     default:
       computer_g = "-";
@@ -36,13 +36,13 @@ int main() {
   std::string user_g;
   switch(user){
     case 1:
-      user_g = "?";
+      user_g = "✊";
       break;
     case 2:
-      user_g = "?";
+      user_g = "✋";
       break;
     case 3:
-      user_g = "??";
+      user_g = "✌️";
       break;
     default:
       user_g = "-";
